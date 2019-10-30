@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 80px;
+    min-width:1400px;
+    background-color:#26d1c9;
+    position: sticky;
+    top: 0.1px;
+}
+.head .nav{
+    margin:0 auto;
+    width: 1300px;
+    height: 100%;
+}
+.head .nav .nav_left{
+    float:left;
+    height: 100%;
+    width:220px;
+}
+.head .nav .nav_left h1{
+    line-height: 80px;
+    margin-left: 30px;
+}
+.head .nav .nav_left h1 img{
+    width: 20%;
+    height: 100%;
+}
+.head .nav .nav_right{
+    float:right;
+    height: 100%;
+    width:400px;
+
+}
+.head .nav .nav_right .list{
+    list-style: none;
+    height: 90px;
+    width: 100%;
+}
+.head .nav .nav_right .list li{
+    float: left;
+    line-height: 80px;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+}
+.head .nav .nav_right .list li:hover{
+    background-color: #ffa39e;
+}
+.head .nav .nav_right .list li a{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+.head .nav .nav_right .list .xl{
+    position: relative;
+    background-color:#24cce2;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    width: 100px;
+    line-height: 80px;
+    text-align: center;
+    float: right;
+}
+.head .nav .nav_right .xl .dpc{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+.head .nav .nav_right .list .xl:hover{
+    background-color:#1ea1c2;
+}
+.head .nav .nav_right .list .xl .dpc a{
+    display: block;
+    background-color:#169ec0;
+    color: black;
+    display: block;
+    font-size: 18px;
+    line-height: 50px;
+    min-width: 100px;
+}
+.head .nav .nav_right .list .xl .dpc a:hover{
+    background-color: #ff4d4f;
+}
+.head .nav .nav_right .xl:hover .dpc{
+    display: block;
+}
+.content{
+    height: 1000px;
+    width: 1400px;
+    margin:0 auto;
+    min-width:1400px;
+}
+.content .movies{
+   width: 1300px;
+   height: 500px;
+   margin:0 auto;
+}
+.content .movies h1{
+   text-align: center;
+}
+.content .movies  hr{
+   width: 10%;
+   margin:10px auto;
+}
+.content .movies .mymovies{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    border:1px solid #ccc;
+}
+.content .movies .mymovies:hover{
+    border:1px solid #000;
+}
+.content .movies .mymovies:hover img{
+    opacity: 0.5;
+}
+.content .movies .mymovies a{
+    text-decoration: none;
+    color: black;
+}
+.content .movies .mymovies a:visited{
+    text-decoration: none;
+    color: black;
+}
+.content .movies .mymovies img{
+    width: 90%;
+    height: 80%;
+    margin-top: 20px;
+}
+.content .movies .mymovies p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.content .books{
+    width: 1300px;
+    height: 500px;
+    margin:0 auto;
+}
+ .content .books h1{
+    text-align: center;
+ }
+ .content .books  hr{
+    width: 10%;
+    margin:10px auto;
+ }
+ .content .books .mybooks{
+     width: 300px;
+     height: 400px;
+     float: left;
+     margin-left: 20px;
+     text-align: center;
+     border:1px solid #ccc;
+ }
+ .content .books .mybooks:hover{
+    border:1px solid #000;
+ }
+ .content .books .mybooks:hover img{
+     opacity: 0.5;
+ }
+ .content .books .mybooks a{
+    text-decoration: none;
+    color: black;
+ }
+ .content .books .mybooks a:visited{
+    text-decoration: none;
+    color: black;
+ }
+ .content .books .mybooks img{
+     width: 90%;
+     height: 80%;
+     margin-top: 20px;
+ }
+ .content .books .mybooks p{
+     font-size: 20px;
+     margin-top: 10px;
+ }
+.footer{
+    height: 280px;
+    min-width:1400px;
+    background-color: #19d8a8;
+    position: relative;
+}
+.footer .erweima {
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -600px;
+    transform: translateY(-50%);
+}
+.footer .erweima .art{
+    float: left;
+    width: 900px;
+    height: 150px;
+    margin-left: 25px;
+    margin-top:25px;
+    font-size: 18px;
+    color: white;
+}
+.footer .erweima .gtt img{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin:25px 25px 25px 25px;
+}
+.footer .footer_bot{
+    position: absolute;
+    height: 60px;
+    width: 1200px;
+    bottom: 5%;
+    left:50%;
+    margin-left: -600px;
+}
+.footer p{
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+}
